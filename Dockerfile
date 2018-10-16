@@ -1,11 +1,11 @@
 FROM python:3.7.0
 
 RUN apt-get update \
-    && apt-get install -y \
+ && apt-get install -y \
     git \
     unzip \
     vim \
-    && pip install \
+ && pip install \
     --upgrade pip \
     cirq \
     matplotlib==2.2.2
@@ -18,7 +18,7 @@ RUN unzip -jo $RICTY_DIMINISHED_VERSION-powerline-early-2016.zip \
 
 WORKDIR /usr/local/lib/python3.7/site-packages/matplotlib/mpl-data
 RUN rm -f matplotlibrc \
-    && echo "backend : Agg" >> matplotlibrc \
-    && echo "font.family : Ricty Diminished" >> matplotlibrc
+ && echo "backend : Agg" >> matplotlibrc \
+ && echo "font.family : Ricty Diminished" >> matplotlibrc
 
 WORKDIR /usr/local/src
