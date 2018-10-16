@@ -8,7 +8,8 @@ RUN apt-get update \
  && pip install \
     --upgrade pip \
     cirq \
-    matplotlib==2.2.2
+    matplotlib==2.2.2 \
+    sympy
 
 WORKDIR /usr/share/fonts
 ENV RICTY_DIMINISHED_VERSION 3.2.4
