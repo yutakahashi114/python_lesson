@@ -10,7 +10,8 @@ RUN apt-get update \
     cirq \
     matplotlib==2.2.2 \
     sympy \
-    matplotlib_venn
+    matplotlib_venn \
+    beautifulsoup4==4.6.0
 
 WORKDIR /usr/share/fonts
 ENV RICTY_DIMINISHED_VERSION 3.2.4
