@@ -1,2 +1,3 @@
 /src/math/file/
 *__pycache__/
+*.csv
