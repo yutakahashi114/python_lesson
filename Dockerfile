@@ -11,7 +11,10 @@ RUN apt-get update \
     matplotlib==2.2.2 \
     sympy \
     matplotlib_venn \
-    beautifulsoup4==4.6.0
+    beautifulsoup4==4.6.0 \
+    gspread \
+    oauth2client \
+    selenium
 
 WORKDIR /usr/share/fonts
 ENV RICTY_DIMINISHED_VERSION 3.2.4

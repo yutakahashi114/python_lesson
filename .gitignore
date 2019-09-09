@@ -1,3 +1,5 @@
 /src/math/file/
 *__pycache__/
 *.csv
+/src/scraping/config/
+*DS_Store

@@ -27,6 +27,7 @@ moment0 = cirq.Moment([cz01, x2])
 moment1 = cirq.Moment([cz12])
 circuit = cirq.Circuit((moment0, moment1))
 
+print('a')
 print(circuit)
 
 q0, q1, q2 = [cirq.GridQubit(i, 0) for i in range(3)]
